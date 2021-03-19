@@ -41,6 +41,12 @@ hr{
   width: 5%;
 
 }
+.line{
+  border-style: solid none none none;
+  margin: auto;
+  border-width: 2px;
+  width: 10%;
+}
 /*.middle-container {
   background-color: blue;
   height: 200px;
@@ -126,7 +132,7 @@ background-color: #66BFBF;
 .footer-link{
   position: relative;
   top: 15px;
-  margin: 30px;
+  padding: 0 4%;
   color: #11999E;
   text-decoration: none;
 }
@@ -142,15 +148,19 @@ background-color: #66BFBF;
 @media (max-width:1071px) {
   .code-img{
     float: none;
+    margin: auto;
   }
   .and-img{
     float: none;
+    margin: auto;
   }
   .skills{
     text-align: center;
   }
   .skill-row{
     text-align: center;
+    width: 80%;
+    margin: 10% auto auto;
   }
 }
 @media (max-width:950px){
